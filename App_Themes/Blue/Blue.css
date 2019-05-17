@@ -1,0 +1,416 @@
+﻿*
+{
+  /* 
+    Defines the main font used throughout the entire site.
+  */
+  font-family: Verdana, Arial, Sans-Serif;
+}
+form #form1 {
+    width:90%;
+    height:auto;
+}
+
+body
+{
+  /* 
+    Clears white space around the body and sets the background color to a dark grey.
+  */width:100%;
+   
+     margin: 0;
+   background-image: url(Images/blueaa.jpg);
+   background-position:center;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+   background-size:cover;
+}
+#hello {
+    color:yellow;
+    font-size:35px;
+}
+#link1 {
+    color:black;
+}
+#link1:hover {
+    color:red;
+}
+#date {
+    text-align:left;
+    margin-bottom:0;
+    margin-left:10%;
+    font-size:15px;
+}
+
+a
+{
+  /*
+    Clears the underline on normal links, and gives them #FE601A (orange) as the text color.
+  */
+  color: white;
+  text-decoration: none;
+}
+
+  a:hover
+  {
+    color:aqua;
+    text-decoration: underline;
+  }
+
+  .MainMenu ul.level1
+ 
+{
+ 
+/* Định dạng các menu cấp 1 như Home, Reviews, About, Login */
+ 
+font-size: 14px;
+ 
+font-weight: bold;
+ 
+height: 19px;
+ 
+line-height: 19px;
+background-color:red;
+ 
+}
+ 
+.MainMenu ul.level1 .selected
+ 
+{
+ 
+/* Khi các menu cấp 1 kích hoạt (hay chế độ active) */
+ 
+background-color: #509EE7;
+border:solid;
+ 
+}
+ .MainMenu ul li
+  {
+    /*
+    Gives the four menu items in the main menu a width of 200px each.
+  */
+    width: 160px;
+  }
+.MainMenu
+{
+  /*
+    The Menu gets a white border on all four sides.
+  */
+  border: 1px solid #999999;
+  width: 814px;
+  height: 19px;
+  background-color: #555555;
+}
+
+.MainMenu a {
+    color:red;
+}
+.MainMenu a.level1
+ 
+{
+ 
+/* Thêm các khoảng trống bên trái các mục menu*/
+
+padding-left: 5px !important;
+ 
+}
+ 
+.MainMenu a.level1
+ 
+{
+ 
+/* Định dạng cho các menu cấp 2 như By Genre, All Reviews,... */
+ 
+background-color: black;
+ 
+padding-left: 8px;
+ 
+}
+ 
+
+
+h1
+{
+  
+  font-size: 20px;
+}
+
+header
+{
+  /*
+    Sets the background of the header to the same color as the right-hand side of the 
+    header image. This way, the header can expand to the right.
+    The margin at the bottom creates some room between the header and the menu and the main content.
+  */
+  background-color: #E34600;
+  
+}
+#ds {
+    color:red;
+}
+
+ 
+
+    
+
+nav
+{
+  text-align:center;
+  border-bottom: solid 5px white;
+  height:auto;
+  width: 10%;
+  padding: 10px;
+  padding-top: 20px;
+  background-color: black;
+  float:left;
+  font-size: 1.4em;
+  border-right:solid 5px white;
+}
+#Menu1 {
+    
+}
+
+.FirstLevelMenuItems
+{
+  padding-top: 10px;
+}
+
+section#MainContent
+{
+  /*
+    Defines the main content area. The text color is white (on the gray background set on the body).
+    The #MainContent section element has a minimum height of 370 pixels, but can grow if necessary.
+    The font-size is 80% of its parent element, which in this case comes down to 80% of the font
+    the user has specified as the default font in the browser.
+  */
+  border-radius:30px;
+
+  color: white;
+  text-align:center;
+  font-size: 0.8em;
+  width: 70%;
+  min-height: 370px;
+  padding: 10px;
+  position: relative;
+  background-color:#beafaf;
+  border:groove 3px black;
+  margin-bottom:30px;
+  float:right;
+  
+  
+}
+#time {
+    font-size:10px;
+}
+div .s1 {
+   
+   background-color:#a02020;
+   width:100%;
+   height:60px;
+   text-align:center;
+   border-radius:10px;
+}   
+div .s2 {
+    color:black;
+    margin-top:10px;
+    margin-bottom:10px;
+   background-color:white;
+   width:80%;
+   position: relative;
+   text-align:center;
+   border-radius:15px;
+   display:block;
+   margin-left:10%;
+
+}   
+
+aside#Sidebar
+{
+  /*
+    The Sidebar is positioned absolutely at the right of the page.
+    It has the same font-size and color as #MainContent
+  */
+  font-size: 0.8em;
+  width: 15%;
+  margin-left:10px;
+  color: White;
+  float:right;
+  padding-top: 6px;
+ font-size:23px;
+  border:double;
+  margin-top:5px;
+  text-align:center;
+  background:red;
+  
+}
+select{
+    color:black;
+    font-size:20px;
+}
+
+
+
+
+.Introduction
+{
+  font-style: italic;
+}
+
+
+.ErrorMessage {
+    color : violet;
+}
+
+.AJAX {
+    height: 50px;
+    width: 500px;
+    background-image: url(Images/ajax.gif);
+    background-repeat: no-repeat;
+    padding-left: 40px;   
+    line-height: 32px;
+}
+
+.Attention {
+    border: 4px solid red;
+    padding: 10px 0;
+    width: 100px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.ItemContainer
+ 
+{
+ 
+width: 400px;
+ 
+list-style-type: none;
+ 
+clear: both;
+ 
+}
+ 
+.ItemContainer li
+ 
+{
+ 
+height: 300px;
+ 
+width: 200px;
+ 
+float: left;
+ 
+}
+img {
+
+    border:solid;
+}
+   
+ 
+.ItemContainer li img
+ 
+{
+ 
+width: 180px;
+ 
+margin: 10px 20px 10px
+ 
+}
+#TreeView1 a {
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    color: red;
+    margin-left:10px;
+    margin-bottom:10px;
+    text-align:center;
+
+}
+#TreeView1 a:hover {
+    color:white;
+    
+}
+#boxes .box{
+		float:left;
+		
+		width: 30%;
+		padding: 10px;
+	}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	}
+footer
+{
+  text-align:left;
+  color:white;
+  border-top: 2px dashed gray;
+  height: auto;
+  line-height: 37px;
+  clear: both;
+  background-color: black;
+  font-size:15px;
+  width:100%;
+}
+p {
+    font-size:15px;
+}
+
+#txt1 {
+   width:100%;
+  
+}
+.baiviet {
+    text-align:left;
+    margin-left:25%;
+}
+#imgavatar {
+    border:double;
+    border-radius:60%;
+    width:100px;
+    height:100px;
+}
+.btn-hover {
+    width: 150px;
+    /*color: #fff;*/
+    /*margin: 20px;*/
+    height: 45px;
+    background-size: 200% 100%;
+    border-radius: 50px;
+    transition: all .4s ease-in-out;
+    margin-right:15px;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #66FFCC, #00FFCC, #CCFFFF, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.zoomin img #lyly {
+    height: 200px;
+    width: 200px;
+}
+.zoomin img:hover
+ {
+     width: 300px; height: 300px;
+
+}
+div .bosung {
+    float:left;
+    width:50%;
+    font-size:20px;
+}
+.ErrorMessage { color: Red; }
+.AJAX {
+    height:32px;
+    width:500px;
+    background-image: url(Images/AJAXX.gif);
+    background-repeat:no-repeat;
+   
+    line-height:32;
+    color:red;
+}

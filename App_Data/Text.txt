@@ -1,0 +1,8 @@
+﻿Xin chào con người !
+
+Đây là thông tin mà con người đã gửi đến chúng tôi !!
+Tên:					 ##Name##
+Lớp:					 ##Class##
+Email:					 ##Email##
+Số Điện Thoại:			 ##HomePhone##
+Chú Thích:				 ##Comments##
