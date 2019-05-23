@@ -47,7 +47,7 @@
     <tr>
         <td class="auto-style3">Tên:</td>
         <td class="auto-style6">
-            <asp:TextBox ID="Name" runat="server" Width="333px" Height="50px"></asp:TextBox>
+            <asp:TextBox ID="Name" runat="server" Width="335px" Height="50px"></asp:TextBox>
         </td>
         <td>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="Name" CssClass="ErrorMessage" ErrorMessage="Enter your name">*</asp:RequiredFieldValidator>
@@ -56,14 +56,14 @@
     <tr>
         <td class="auto-style3">Lớp</td>
         <td class="auto-style6">
-            <asp:TextBox ID="Class" runat="server" Width="332px" Height="50px"></asp:TextBox>
+            <asp:TextBox ID="Class" runat="server" Width="335px" Height="50px"></asp:TextBox>
         </td>
         <td>&nbsp;</td>
     </tr>
     <tr>
         <td class="auto-style3">Địa chỉ Email</td>
         <td class="auto-style6">
-            <asp:TextBox ID="EmailAddress" runat="server" Width="330px" Height="50px"></asp:TextBox>
+            <asp:TextBox ID="EmailAddress" runat="server" Width="335px" Height="50px"></asp:TextBox>
         </td>
         <td>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="EmailAddress" CssClass="ErrorMessage" Display="Dynamic" ErrorMessage="Nhập địa chỉ Email">*</asp:RequiredFieldValidator>
@@ -73,7 +73,7 @@
     <tr>
         <td class="auto-style3">Xác nhận Email</td>
         <td class="auto-style6">
-            <asp:TextBox ID="ConfirmEmailAddress" runat="server" Width="329px" Height="50px"></asp:TextBox>
+            <asp:TextBox ID="ConfirmEmailAddress" runat="server" Width="335px" Height="50px"></asp:TextBox>
         </td>
         <td>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="ConfirmEmailAddress" CssClass="ErrorMessage" Display="Dynamic" ErrorMessage="Xác nhận địa chỉ Email">*</asp:RequiredFieldValidator>
@@ -83,7 +83,7 @@
     <tr>
         <td class="auto-style3">Số điện thoại</td>
         <td class="auto-style6">
-            <asp:TextBox ID="PhoneHome" runat="server" Width="331px" Height="50px"></asp:TextBox>
+            <asp:TextBox ID="PhoneHome" runat="server" Width="335px" Height="50px"></asp:TextBox>
         </td>
         <td>
             <asp:CustomValidator ID="CustomValidator1" runat="server" ClientValidationFunction="validatePhoneNumbers" CssClass="ErrorMessage" Display="Dynamic" ErrorMessage="Nhập số điện thoại cá nhân hay số cơ quan" OnServerValidate="CustomValidator1_ServerValidate">*</asp:CustomValidator>
@@ -104,7 +104,7 @@
     <tr>
         <td class="auto-style4">&nbsp;</td>
         <td class="auto-style6">
-            <asp:Button ID="SendButton" runat="server" Text="Send" Width="65px" OnClick="SendButton_Click" />
+            <asp:Button ID="SendButton" runat="server" Text="GỬI" Width="105px"  OnClick="SendButton_Click" />
         </td>
         <td>&nbsp;</td>
     </tr>

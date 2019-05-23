@@ -4,15 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
   
-    <asp:UpdatePanel ID="UpdatePane1" runat="server">
-       <ContentTemplate>
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />  
-             <asp:Label ID="Label1" runat="server"></asp:Label>
-
-       </ContentTemplate>
-
-     
-    </asp:UpdatePanel>
+    
     <div class="s1">
         <h1 id="hello">Chào mừng đến với lớp CTT11CĐ3A</h1>
     </div>

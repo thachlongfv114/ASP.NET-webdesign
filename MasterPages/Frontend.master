@@ -16,7 +16,11 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true"></asp:ScriptManager>
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="true">
+            <Scripts>
+                <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.min.js" />
+            </Scripts>
+        </asp:ScriptManager>
     <div id="PageWrapper">
         
 
@@ -44,6 +48,16 @@
                 <br />
             
                <img src= "Images/xinchao.gif" width="80%" height="auto"  /> <br />
+     <asp:UpdatePanel ID="UpdatePane1" runat="server">
+       <ContentTemplate>
+            <asp:Button ID="Button1" runat="server" Text="What time is it" OnClick="Button1_Click" />  
+             <asp:Label ID="Label1" runat="server"></asp:Label>
+
+       </ContentTemplate>
+
+     
+    </asp:UpdatePanel>
+
         </aside>
       
         <section id="MainContent">

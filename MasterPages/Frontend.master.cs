@@ -9,6 +9,9 @@ public partial class MasterPages_Frontend : System.Web.UI.MasterPage
 {
     protected void Page_Load(object sender, EventArgs e)
     {
+
+        Label1.Text = System.DateTime.Now.ToString();
+
         if (!Page.IsPostBack)
         {
             string selectedTheme = Page.Theme;
@@ -63,5 +66,9 @@ public partial class MasterPages_Frontend : System.Web.UI.MasterPage
         preferredTheme.Value = ThemeList.SelectedValue;
         Response.Cookies.Add(preferredTheme);
         Response.Redirect(Request.Url.ToString());
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+
     }
 }

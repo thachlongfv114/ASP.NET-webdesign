@@ -10,7 +10,7 @@
       <siteMapNode url="~/Album/kiyeu.aspx" title="KỈ YẾU"  description="Kỉ yếu năm nhất" />
       <siteMapNode url="~/Album/dalat.aspx" title="ĐÀ LẠT"  description="kỷ Niệm Đà Lạt" />
     </siteMapNode>
-    <siteMapNode url="~/Login.aspx" title="GÓP Ý"   />
+    <siteMapNode url="~/Login.aspx" title="LIÊN HỆ"   />
     <siteMapNode url="~/Demos/WebServices.aspx" title="SAY HEllO"   />
    
   </siteMapNode>

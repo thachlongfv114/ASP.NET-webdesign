@@ -5,13 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-public partial class aspx : BasePage
+public partial class _jquery : BasePage
 {
     protected void Page_Load(object sender, EventArgs e)
-    {
-       
-    }
-    protected void Button1_Click(object sender, EventArgs e)
     {
 
     }
